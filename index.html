@@ -6,30 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenLayers example</title>
-        <meta charset="utf-8">
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- CSS open layers -->
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/css/ol.css" type="text/css">
 
-    <style>
-        .map {
-            height: 400px;
-        }
-    </style>
+    <!-- CSS Layer switcher -->
+    <link rel="stylesheet" href="https://rawgit.com/walkermatt/ol-layerswitcher/master/dist/ol-layerswitcher.css">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;900&display=swap"
+        rel="stylesheet">
 
     <!-- Js open layers -->
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/build/ol.js"></script>
-    
+
     <!-- Layer switcher -->
     <script src="http://raw.githack.com/walkermatt/ol-layerswitcher/master/dist/ol-layerswitcher.js"></script>
 
 </head>
 
 <body>
-    <h1>My Map</h1>
     <div id="map" class="map"></div>
+
 
     <script src="./js/main.js"></script>
 </body>
+
 </html>
